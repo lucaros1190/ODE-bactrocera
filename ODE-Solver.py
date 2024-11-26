@@ -132,7 +132,7 @@ for i in range(len(TempForPlot)):
 DevRate = np.zeros(len(TempForPlot))
     
 for i in range(len(TempForPlot)):
-    DevRate = BriFunc_Plot(BriPar_EGG, i)
+    DevRate[i] = BriFunc_Plot(BriPar_EGG, i)
 
 
 # Plot fertility and mortality rates
